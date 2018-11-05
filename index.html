@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Can't touch this?</title>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+      min-width: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: red;
+    }
+
+    .pics {
+      background-color: slategray;
+    }
+
+    .pics img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, .5);
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+    }
+
+    .box {
+      position: fixed;
+      background-color: coral;
+      width: 20vw;
+      height: 20vw;
+      left: 40%;
+      top: 40%;
+
+      cursor: grab;
+    }
+  </style>
+</head>
+<body>
+<div class="pics"><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/><img
+    src="img.jpg"/><img src="img.jpg"/><img src="img.jpg"/></div>
+<div class="overlay">
+  <div class="box"></div>
+</div>
+</body>
+<script src="canttouchthis.js"></script>
+</html>
